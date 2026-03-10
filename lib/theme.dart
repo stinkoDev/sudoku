@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 
 const Color myPurple = Color(0xFFb200ff);
+const Color myBlue = Color(0xFFBAF6FD);
 
 class AppTheme {
-  static final light = ThemeData(
+  static final customLight = ThemeData(
     useMaterial3: true,
     colorScheme: ColorScheme.fromSeed(
-      seedColor: myPurple,
+      seedColor: myBlue,
       brightness: Brightness.light,
     ),
   );
 
-  static final dark = ThemeData(
+  static final customDark = ThemeData(
     useMaterial3: true,
     colorScheme: ColorScheme.fromSeed(
-      seedColor: myPurple,
+      seedColor: myBlue,
       brightness: Brightness.dark,
     ),
   );

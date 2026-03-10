@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       create: (_) => NavProvider(),
       child: MaterialApp.router(
         title: 'Sudoku',
-        theme: AppTheme.light,
-        darkTheme: AppTheme.dark,
+        theme: AppTheme.customLight,
+        darkTheme: AppTheme.customDark,
         themeMode: ThemeMode.system,
         routerConfig: App.router,
       ),
