@@ -15,7 +15,7 @@ class AppTheme {
   static final customDark = ThemeData(
     useMaterial3: true,
     colorScheme: ColorScheme.fromSeed(
-      seedColor: myBlue,
+      seedColor: myPurple,
       brightness: Brightness.dark,
     ),
   );
